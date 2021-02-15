@@ -1,0 +1,38 @@
+    
+    table th{
+    position: relative;
+    }
+    table th input{
+      width: 100px;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+      margin-left: 10px;
+    }
+    table th label{
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px;
+      color: #fff;
+      letter-spacing: 1px;
+      pointer-events: none;
+      transition: .5s;
+      margin-top: 5px;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+    table th input:focus ~ label,
+    table th input:valid ~ label{
+      top: -18px;
+      left: 0;
+      color: #03a9f4;
+      font-size: 20px;
+    }
+   
